@@ -15,7 +15,7 @@ public:
             } 
             else{
                 if(mini>=nums[mid]) mini=nums[mid];
-                low=mid+1;
+                high=mid-1;
             }    
     }
     return mini;
