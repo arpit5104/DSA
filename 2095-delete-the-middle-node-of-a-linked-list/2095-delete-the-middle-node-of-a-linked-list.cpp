@@ -21,6 +21,11 @@ public:
 
         }
 
+        if(n==1){
+            head=NULL;
+            return head;
+        }
+
         int mid=n/2;
         temp = head;
 
